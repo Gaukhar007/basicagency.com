@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f1f1f1;
+   
+}
+.logo{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    color: #fff;
+}
+.imglogo {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+.moredetails{
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    color: #fff;
+}
+header {
+    background: #333;
+    color: #000000;
+    padding: 10px;
+    text-align: end;
+
+}
+.firstcontent{
+   height: 1024px;
+   width: 100%;
+   background: url('intro.mp4') no-repeat center center fixed; 
+   background-size: cover; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstcontent img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.fc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #000;
+    text-decoration: none;
+}
+.rightpart{
+    /* margin-bottom: 300px;
+    margin-left: 100px; */
+    padding: 150px;
+    font-size: 24px;
+    /* font-size: 98px;
+    margin-top: 130px;
+    margin-left: 150px; */
+
+}
+.span{
+    font-weight: bold;
+}
+.firstcontent{
+    color: #fff;
+}
+.secondcontent{
+     height: 500px;
+     background-color: #f1f1f1f1;
+     display: grid;
+     place-content: center;
+}
+.firstcontent, .secondcontent, .thirdcontent, .fourthcontent, .fifthcontent, .sixth, footer {
+    padding: 20px;
+    margin: 20px;
+}
+.thirdcontent{
+    display: flex;
+    flex-direction: column;
+  
+}
+.firstcolumn{
+    display:flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.somethingelse{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.insecondcontent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.insecondcontent img {
+    width: 100px;
+    height: auto;
+}
+
+.thirdcontent {
+    display: flex;
+    gap: 20px;
+    
+}
+.fourthcontent{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+h4{
+    font-size: large;
+    font-weight: bold;
+}
+.fe{
+    margin-left: 40px;
+    margin-bottom:15pxpx ;
+
+    
+}
+.fifthcontent{
+    display: flex;
+    flex-direction: row;
+}
+/* .firstcolumn, .secondcolumn {
+    width: 48%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+} */
+.paragraph{
+    margin-top: 70px;
+    margin-bottom:70px ;
+    font-family: sans-serif;
+    font-size: 24px;
+    
+}
+
+.inthidcolumn img {
+    width: 100%;
+    height: auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+
+
+.rightpart {
+    width: 50%;
+    text-align: left;
+}
+
+.leftpart img {
+    width: 100%;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #f1f1f1;
+    color: #000000;
+}
+
+.BASIC{
+    font-size: 88px;
+    font-weight: bold;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.article img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.arrow {
+    font-size: 1.5em;
+    color: #333;
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.footer-email {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.footer-section {
+    margin: 20px 0;
+}
+
+.footer-section h3 {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+.footer-section p {
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    outline: none;
+}
+
+input[type="email"]::placeholder {
+    color: #bbb;
+}
+
+.submit {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #ccc;
+}
+/* Медиа-запросы для адаптивности */
+@media screen and (max-width: 768px) {
+    body{
+        flex-direction: column;
+    }
+    /* .firstcontent, .secondcontent, .thirdcontent, .fourthcontent, .fifthcontent, .sixth {
+        padding: 10px;
+        margin: 10px;
+    } */
+    /* .thirdcontent{
+        flex-direction: column;
+    } */
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .firstcolumn{
+        flex-direction: column;
+    }
+    .imglogo{
+        width: 20%;
+        height: 15%;
+    }
+    .fc {
+        flex-direction: row;
+        align-items: center;
+    }
+    .sc {
+        flex-direction: row;
+        align-items: center;
+    }
+    .firstcolumn{
+        flex-direction: column-reverse;
+    }
+    .fourthcontent{
+        flex-direction: column;
+    }
+    .fifthcontent{
+        flex-direction: column;
+    }
+    .somethingelse {
+        grid-template-columns: 1fr; /* Одна колонка для мобильных устройств */
+    }
+
+    .rightpart {
+        width: 100%;
+        text-align: center;
+        padding: 50px 10px;
+    }
+
+    button {
+        width: 80%;
+        margin: 10px auto; /* Центрируем кнопку */
+        border: #000 solid 1px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fc img {
+        max-width: 100%; /* Адаптивная ширина изображений */
+        height: auto;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .thirdcontent {
+        flex-direction: row;
+    }
+    .secondcontent{
+        flex-direction: column;
+    }
+    /* .firstcolumn, .secondcolumn, .rightpart, .leftpart {
+        width: 100%;
+    } */
+
+    /* .insecondcontent img {
+        width: 80px;
+    }
+
+    .infourth, .inthidcolumn, .sixth {
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer {
+        padding: 15px;
+    } */ 
